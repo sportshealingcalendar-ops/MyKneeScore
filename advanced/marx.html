@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marx | Marx Activity Rating Scale | My Knee Score</title>
+<meta name="description" content="Take the Marx Activity Rating Scale (Marx) online. 4 questions, 1-2 min. Get your score instantly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/advanced.css">
+</head>
+<body data-score="marx">
+<header>
+  <div class="wrap nav">
+    <a class="wordmark" href="../index.html">My<span>Knee</span>Score</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="../index.html#how">How it works</a></li>
+        <li><a href="../index.html#meaning">Your score</a></li>
+        <li><a href="../anatomy.html">Knee anatomy</a></li>
+        <li><a href="index.html">Advanced scores</a></li>
+        <li><a class="start-link" href="../index.html#quiz">Start the test</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero hero-slim">
+    <div class="wrap">
+      <p class="eyebrow"><a href="index.html">Advanced scores</a> &middot; Sports Knee</p>
+      <h1>Marx Activity Rating Scale <em>(Marx)</em></h1>
+      <p class="lede">Brief activity scale focusing on high-demand knee activities. Complements functional scores by quantifying activity level.</p>
+      <ul class="facts">
+        <li><b>4</b> questions</li>
+        <li><b>1-2 min</b></li>
+        <li>Score <b>0 to 16, higher is better</b></li>
+        <li><b>Well Validated</b></li>
+      </ul>
+      
+      <div class="hero-actions"><button type="button" class="btn btn-gold" data-open-quiz>Start the Marx</button><a class="btn btn-ghost" href="index.html">All scores</a></div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2>About the Marx</h2>
+        <h3>Who it is for</h3>
+        <p>Athletes and active individuals where high-demand activities are relevant. Documents activity exposure.</p>
+        <h3>What it measures</h3>
+        <p>Frequency of participation in four high-demand activities: running, cutting, decelerating, and pivoting. Each rated from 0 (never) to 4 (4+ times/week).</p>
+        <h3>Sections</h3><ul class="ticks"><li>Running</li><li>Cutting</li><li>Deceleration</li><li>Pivoting</li></ul>
+        <h3>Reading your score</h3>
+        <p>Sum of 4 items (0-4 each). Higher = more frequent high-demand activity.</p>
+      </div>
+      <aside class="side-card">
+        <p class="eyebrow">Strengths</p>
+        <ul class="ticks"><li>Very brief</li><li>Quantifies high-demand activity frequency</li><li>Free to use</li><li>Complements functional scores</li></ul>
+        <p class="eyebrow">Limitations</p>
+        <ul class="ticks"><li>Limited to high-demand activities</li><li>Floor effects in sedentary patients</li><li>Does not capture recreational activities</li></ul>
+        <p class="eyebrow">Source</p>
+        <p class="cite">Marx RG, et al. Development and evaluation of an activity rating scale for disorders of the knee. Am J Sports Med. 2001;29(2):213-218. <a href="https://doi.org/10.1177/03635465010290021601" rel="noopener" target="_blank">Read the paper</a></p>
+        <p class="cite">Licence: Free</p>
+      </aside>
+    </div>
+  </section>
+</main>
+<div class="disclaimer">
+  <div class="wrap">
+    <strong>Important.</strong> These questionnaires are provided for education and self-tracking. A score is not a diagnosis and does not replace advice from a doctor or physiotherapist. Seek urgent care for a knee that is hot, red and swollen, follows a significant injury, or will not bear weight.
+  </div>
+</div>
+<footer>
+  <div class="wrap foot">
+    <p>&copy; 2026 mykneescore.com</p>
+    <p><a href="../index.html#quiz">Take the test</a> &middot; <a href="index.html">Advanced scores</a> &middot; <a href="#top">Back to top</a></p>
+  </div>
+</footer>
+<div class="quiz-app" id="quizApp" role="dialog" aria-modal="true" aria-label="Marx questionnaire" hidden>
+  <div class="quiz-topbar">
+    <div class="wrap quiz-topbar-inner">
+      <button type="button" class="quiz-exit" id="quizExit" aria-label="Close the questionnaire">Exit</button>
+      <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+      <p class="progress-meta" id="progressMeta" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="q-stage">
+    <div class="wrap narrow">
+      <div id="quizBody"></div>
+      <div class="q-nav" id="quizNav">
+        <button type="button" class="btn btn-ghost-green" id="backBtn">Back</button>
+        <button type="button" class="btn btn-green" id="nextBtn">Next</button>
+      </div>
+      <div class="result" id="result" aria-live="polite"></div>
+    </div>
+  </div>
+</div>
+<script src="assets/scores-data.js"></script>
+<script src="assets/engine.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

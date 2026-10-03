@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced knee scores | My Knee Score</title>
+<meta name="description" content="Clinically used knee questionnaires including KOOS, IKDC, Lysholm, Kujala and more. Answer online and get your score instantly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/advanced.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="wordmark" href="../index.html">My<span>Knee</span>Score</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="../index.html#how">How it works</a></li>
+        <li><a href="../index.html#meaning">Your score</a></li>
+        <li><a href="../anatomy.html">Knee anatomy</a></li>
+        <li><a href="index.html" aria-current="page">Advanced scores</a></li>
+        <li><a class="start-link" href="../index.html#quiz">Start the test</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero hero-slim">
+    <div class="wrap">
+      <p class="eyebrow">Advanced scores</p>
+      <h1>The questionnaires <em>clinicians use.</em></h1>
+      <p class="lede">These are the knee scores used by surgeons, physiotherapists and researchers. Each one asks about a specific kind of knee problem. Pick the one that fits you, answer the questions, and get your score straight away.</p>
+      <p class="hero-note">Free. No account needed. Nothing you enter leaves your device.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Choose a score</p>
+        <h2>Published knee scores</h2>
+        <p>Not sure where to start? The main <a href="../index.html#quiz">My Knee Score test</a> is the quickest check. Use these when a clinician asks for a specific score, or when you want more detail on one area.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter by category">
+        <button type="button" class="chip is-on" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="Sports Knee" aria-pressed="false">Sports Knee</button>
+        <button type="button" class="chip" data-filter="General Knee" aria-pressed="false">General Knee</button>
+        <button type="button" class="chip" data-filter="ACL/Ligament" aria-pressed="false">ACL/Ligament</button>
+        <button type="button" class="chip" data-filter="Arthroplasty" aria-pressed="false">Arthroplasty</button>
+        <button type="button" class="chip" data-filter="Meniscus" aria-pressed="false">Meniscus</button>
+        <button type="button" class="chip" data-filter="Patellofemoral" aria-pressed="false">Patellofemoral</button>
+      </div>
+      <div class="score-grid" id="scoreGrid">
+        <a class="score-card" href="ikdc.html" data-cat="Sports Knee">
+          <span class="sc-acronym">IKDC</span>
+          <span class="sc-name">International Knee Documentation Committee Subjective Knee Evaluation Form</span>
+          <span class="sc-meta">18 questions &middot; 5-8 min</span>
+          <span class="sc-tags"><span class="tag">Sports Knee</span><span class="tag">Gold Standard</span></span>
+        </a>
+        <a class="score-card" href="koos.html" data-cat="General Knee">
+          <span class="sc-acronym">KOOS</span>
+          <span class="sc-name">Knee Injury and Osteoarthritis Outcome Score</span>
+          <span class="sc-meta">42 questions &middot; 10-15 min</span>
+          <span class="sc-tags"><span class="tag">General Knee</span><span class="tag">Gold Standard</span></span>
+        </a>
+        <a class="score-card" href="lysholm.html" data-cat="ACL/Ligament">
+          <span class="sc-acronym">Lysholm</span>
+          <span class="sc-name">Lysholm Knee Scoring Scale</span>
+          <span class="sc-meta">8 questions &middot; 3-5 min</span>
+          <span class="sc-tags"><span class="tag">ACL/Ligament</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="tegner.html" data-cat="Sports Knee">
+          <span class="sc-acronym">Tegner</span>
+          <span class="sc-name">Tegner Activity Scale</span>
+          <span class="sc-meta">1 question &middot; 1 min</span>
+          <span class="sc-tags"><span class="tag">Sports Knee</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="koos-jr.html" data-cat="Arthroplasty">
+          <span class="sc-acronym">KOOS-JR</span>
+          <span class="sc-name">KOOS for Joint Replacement</span>
+          <span class="sc-meta">7 questions &middot; 2-3 min</span>
+          <span class="sc-tags"><span class="tag">Arthroplasty</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="womet.html" data-cat="Meniscus">
+          <span class="sc-acronym">WOMET</span>
+          <span class="sc-name">Western Ontario Meniscal Evaluation Tool</span>
+          <span class="sc-meta">16 questions &middot; 5-8 min</span>
+          <span class="sc-tags"><span class="tag">Meniscus</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="kujala.html" data-cat="Patellofemoral">
+          <span class="sc-acronym">Kujala/AKPS</span>
+          <span class="sc-name">Kujala Anterior Knee Pain Scale</span>
+          <span class="sc-meta">13 questions &middot; 5-7 min</span>
+          <span class="sc-tags"><span class="tag">Patellofemoral</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="acl-qol.html" data-cat="ACL/Ligament">
+          <span class="sc-acronym">ACL-QOL</span>
+          <span class="sc-name">ACL Quality of Life Questionnaire</span>
+          <span class="sc-meta">32 questions &middot; 10-12 min</span>
+          <span class="sc-tags"><span class="tag">ACL/Ligament</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="norwich-pis.html" data-cat="Patellofemoral">
+          <span class="sc-acronym">NPI</span>
+          <span class="sc-name">Norwich Patellar Instability Score</span>
+          <span class="sc-meta">19 questions &middot; 5-8 min</span>
+          <span class="sc-tags"><span class="tag">Patellofemoral</span><span class="tag">Validated</span></span>
+        </a>
+        <a class="score-card" href="fjs-12.html" data-cat="Arthroplasty">
+          <span class="sc-acronym">FJS-12</span>
+          <span class="sc-name">Forgotten Joint Score</span>
+          <span class="sc-meta">12 questions &middot; 3-5 min</span>
+          <span class="sc-tags"><span class="tag">Arthroplasty</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="acl-rsi.html" data-cat="ACL/Ligament">
+          <span class="sc-acronym">ACL-RSI</span>
+          <span class="sc-name">ACL Return to Sport after Injury Scale</span>
+          <span class="sc-meta">12 questions &middot; 3-5 min</span>
+          <span class="sc-tags"><span class="tag">ACL/Ligament</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="marx.html" data-cat="Sports Knee">
+          <span class="sc-acronym">Marx</span>
+          <span class="sc-name">Marx Activity Rating Scale</span>
+          <span class="sc-meta">4 questions &middot; 1-2 min</span>
+          <span class="sc-tags"><span class="tag">Sports Knee</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="kss-2011.html" data-cat="Arthroplasty">
+          <span class="sc-acronym">KSS-2011</span>
+          <span class="sc-name">New Knee Society Knee Scoring System (2011)</span>
+          <span class="sc-meta">9 questions &middot; 10-15 min</span>
+          <span class="sc-tags"><span class="tag">Arthroplasty</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="bpii.html" data-cat="Patellofemoral">
+          <span class="sc-acronym">BPII</span>
+          <span class="sc-name">Banff Patella Instability Instrument</span>
+          <span class="sc-meta">23 questions &middot; 10-15 min</span>
+          <span class="sc-tags"><span class="tag">Patellofemoral</span><span class="tag">Validated</span></span>
+        </a>
+        <a class="score-card" href="cincinnati.html" data-cat="Sports Knee">
+          <span class="sc-acronym">CKRS</span>
+          <span class="sc-name">Cincinnati Knee Rating System</span>
+          <span class="sc-meta">11 questions &middot; 5-8 min</span>
+          <span class="sc-tags"><span class="tag">Sports Knee</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="pedi-ikdc.html" data-cat="Sports Knee">
+          <span class="sc-acronym">Pedi-IKDC</span>
+          <span class="sc-name">Pediatric IKDC Subjective Knee Evaluation Form</span>
+          <span class="sc-meta">18 questions &middot; 5-8 min</span>
+          <span class="sc-tags"><span class="tag">Sports Knee</span><span class="tag">Well Validated</span></span>
+        </a>
+        <a class="score-card" href="sane.html" data-cat="General Knee">
+          <span class="sc-acronym">SANE</span>
+          <span class="sc-name">Single Assessment Numeric Evaluation</span>
+          <span class="sc-meta">1 question &middot; &lt;1 min</span>
+          <span class="sc-tags"><span class="tag">General Knee</span><span class="tag">Validated</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="paper">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">In development</p>
+        <h2>My Knee Score tools</h2>
+        <p>Short scores developed by My Knee Score. They have not yet been validated in published research, so treat the result as a guide.</p>
+      </div>
+      <div class="score-grid">
+        <a class="score-card" href="sk11.html" data-cat="General Knee">
+          <span class="sc-acronym">SK11</span>
+          <span class="sc-name">mykneescore Short Knee - SK11</span>
+          <span class="sc-meta">11 questions &middot; 2-3 min</span>
+          <span class="sc-tags"><span class="tag">General Knee</span><span class="tag tag-warn">Awaiting Validation</span></span>
+        </a>
+        <a class="score-card" href="pk7.html" data-cat="General Knee">
+          <span class="sc-acronym">PK7</span>
+          <span class="sc-name">mykneescore Pro Knee - PK7</span>
+          <span class="sc-meta">7 questions &middot; 3-4 min</span>
+          <span class="sc-tags"><span class="tag">General Knee</span><span class="tag tag-warn">Awaiting Validation</span></span>
+        </a>
+        <a class="score-card" href="ks5.html" data-cat="General Knee">
+          <span class="sc-acronym">KS5</span>
+          <span class="sc-name">mykneescore Knee Sleep Score - KS5</span>
+          <span class="sc-meta">5 questions &middot; 1 min</span>
+          <span class="sc-tags"><span class="tag">General Knee</span><span class="tag tag-warn">Unvalidated</span></span>
+        </a>
+      </div>
+      <p class="coming">Coming soon, once licence permission is in place: Oxford Knee Score and WOMAC.</p>
+    </div>
+  </section>
+</main>
+<div class="disclaimer">
+  <div class="wrap">
+    <strong>Important.</strong> These questionnaires are provided for education and self-tracking. A score is not a diagnosis and does not replace advice from a doctor or physiotherapist. Seek urgent care for a knee that is hot, red and swollen, follows a significant injury, or will not bear weight.
+  </div>
+</div>
+<footer>
+  <div class="wrap foot">
+    <p>&copy; 2026 mykneescore.com</p>
+    <p><a href="../index.html#quiz">Take the test</a> &middot; <a href="index.html">Advanced scores</a> &middot; <a href="#top">Back to top</a></p>
+  </div>
+</footer>
+<script src="assets/hub.js"></script>
+</body>
+</html>
